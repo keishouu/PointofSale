@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic Point of Sale System in Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <div class="container">
+        <div class="containerTitle">
+        <h1>Welcome to the Canteen! Here's our Menu</h1>
+        <h2>Prices are shown below. <i>Click the order button once you're satisfied with your order/s</i></h2>
+        <div class="class-list">
+            <ul>
+                <li class="list-item">Burger - 60 pesos</li>
+                <li class="list-item">Fries - 50 pesos</li>
+                <li class="list-item">Fishball - 20 pesos</li>
+                <li class="list-item">Kikiam - 25 pesos</li>
+            </ul>
+        </div>
+    </div>
+        <div class="orders" id="orders"></div>
+        <button id="addOrder">Add Order</button>
+        <h1 class="choice">Choice:</h1>
+        <div id="orderContainers"></div>
+        <hr style="height: 3px; background-color: #E2F4C5;">
+        <input type="number" id="payAmount" placeholder="Enter pay amount">
+        <button id="calculateChange">Pay!</button>
+        <div id="change"></div>
+    </div>
+        <script src="script.js"></script>
+  </body>
+</html>
